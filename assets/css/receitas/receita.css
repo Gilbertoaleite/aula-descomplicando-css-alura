@@ -5,7 +5,28 @@
 	border: 1px solid #c4c4c4;
 	display: flex;
 	flex-direction: column;
-	margin: 0 6rem 2rem 0;
 	padding-bottom:1.2rem;
-	width: 25%;
+}
+
+@media screen and ( min-width: 0) {
+	.receita {
+		
+		margin-right: 1rem;
+		width: 100%;
+   }
+}
+@media screen and ( min-width: 768px) {
+   .receita {
+
+		margin-right: 2.5rem;
+		width: calc(33.33 - 2.5rem);
+
+   }
+}
+@media screen and ( min-width: 992px) {
+   .receita {
+		margin: 0 6rem 2rem 0;
+		width: 25%;
+      
+   }
 }
